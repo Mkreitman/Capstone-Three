@@ -1,7 +1,7 @@
 MushroomEdibilityClassifier
 ==============================
 
-Much of the public opinion about wild mushrooms is that they are mostly poisonous and it’s best to avoid them all together. While this is not entirely correct, picking and eating the wrong ones may cause liver failure resulting in death.  This project attempts to use image classification of mushroom pictures to provide the user potential toxicity information about a mushroom within a digital picture.
+Much of the public opinion about wild mushrooms is that they are mostly poisonous and it’s best to avoid them all together.  This project attempts to use image classification of mushroom pictures to provide the user information about a mushroom's toxicity from a digital picture.
 
 Project Organization
 ------------
