@@ -1,7 +1,7 @@
 MushroomEdibilityClassifier
 ==============================
 
-This project focuses on College Scorecard data provided by the U.S. Department of Education. The purpose it to explore student data to find useful insights on increasing graduation rates. In particular, I'd like to see if there is statistical significance between ACT/SAT scores a
+Much of the public opinion about wild mushrooms is that they are mostly poisonous and it’s best to avoid them all together. While this is not entirely correct, picking and eating the wrong ones may cause liver failure resulting in death.  This project attempts to use image classification of mushroom pictures to provide the user potential toxicity information about a mushroom within a digital picture.
 
 Project Organization
 ------------
