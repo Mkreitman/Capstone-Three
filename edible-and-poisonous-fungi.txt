@@ -1,2 +1,0 @@
-
-URL to edible and poisonous fungi kaggle dataset landing page: https://www.kaggle.com/datasets/marcosvolpato/edible-and-poisonous-fungi
