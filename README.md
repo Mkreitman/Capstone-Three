@@ -1,4 +1,4 @@
-MushroomEdibilityClassifier
+Mushroom_Edibility_Binary_Classifier
 ==============================
 
 Much of the public opinion about wild mushrooms is that they are mostly poisonous and it’s best to avoid them all together.  This project attempts to use image classification of mushroom pictures to provide the user information about a mushroom's toxicity.
