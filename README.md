@@ -21,6 +21,6 @@ Project Organization
     │                         `1.0-jqp-initial-data-exploration`.
     │
     │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    ├── reports            <- Generated analysis as PDF.
         └── figures        <- Generated graphics and figures to be used in reporting
     
