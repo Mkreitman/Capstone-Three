@@ -31,24 +31,27 @@ Converted images to .jpg format and split them into training, validation, and te
 Trained and evaluated three models using Fastai’s vision_learner: 
 
 1) Resnet34 with 128-pixel images (4 epochs)
-![Model_1_epoch_results]([https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_1_cm.png](https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Model_1.png))
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Model_1.png" alt="Image" width="400" height="400">
 
 2) Resnet34 with 224-pixel images (4 epochs)
-![Model_2_epoch_results](https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Model_2.png)
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Model_2.png" alt="Image" width="400" height="400">
 
 3) Resnet50 with 128-pixel images (4 epochs)
-![Model_3_epoch_results]([https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_1_cm.png](https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Model_3.png))
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Model_3.png" alt="Image" width="400" height="400">
 
 ### Performance Analysis
 Model 2 outperformed others, exhibiting superior validation loss, precision, and recall. Confusion matrices and precision-recall analysis were employed for detailed performance evaluation.
 
-![Model_1](https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_1_cm.png)
+#### Model 1:
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_1_cm.png" alt="Image" width="400" height="400">
 
-![Model_2](https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_2_cm.png)
+#### Model 2:
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_2_cm.png" alt="Image" width="400" height="400">
 
-![Model_3](https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_3_cm.png)
+#### Model 3:
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_3_cm.png" alt="Image" width="400" height="400">
 
-![Poisonous_precision_and_recall_comparison](https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Poisonous_test_precision_and_recall_results.png)
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Poisonous_test_precision_and_recall_results.png" alt="Image" width="400" height="400">
 
 Demonstrated below, Model 2 had the closest training and validation loss measures comparatively to the other two which indicate low variance and suggests that it is not overfitting or underfitting the training data significantly.
 
@@ -59,7 +62,7 @@ For precision in predicting poisonous mushrooms, Model 1 utilizing Resnet50 with
 
 Here are some examples of Model 2's predictions:
 
-![Model_2_prediction_results](https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_2_predictions.png)
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/model_2_predictions.png" alt="Image" width="500" height="128">
 
 ## Future Work
 Improving model performance by adding high-quality images focusing on top and bottom of the mushroom's cap and stem with accurate edibility label. Exploring advanced hardware, such as a GPU system, for processing larger image sizes. Addressing watermark issues through techniques like thresholding and edge detection, ensuring crucial image features are preserved. Adjusting the blue pixel distribution to align more closely with the red and green channels' distribution curves.
