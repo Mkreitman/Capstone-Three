@@ -21,7 +21,7 @@ Identified issues like watermarks and URL banners in some images. Applied inpain
 ### Exploratory Data Analysis
 Explored pixel intensities across RGB channels to understand lighting conditions and potential biases. Noted a prevalence of red and green hues, with blue hues less prominent.
 
-<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/RBG_pixel_intensity.png" alt="Image" width="809" height="268">
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/RBG_pixel_intensity.png" alt="Image" width="606" height="201">
 
 
 ## Model Training and Evaluation
@@ -57,7 +57,7 @@ Model 2 outperformed others, exhibiting superior validation loss, precision, and
 
 Demonstrated below, Model 2 had the closest training and validation loss measures comparatively to the other two which indicate low variance and suggests that it is not overfitting or underfitting the training data significantly.
 
-<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Variance_check.png" alt="Image" width="600" height="371">
+<img src="https://github.com/Mkreitman/Capstone-Three/blob/main/reports/figures/Variance_check.png" alt="Image" width="450" height="278">
 
 
 ## Conclusions
